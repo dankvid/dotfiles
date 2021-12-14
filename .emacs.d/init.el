@@ -12,6 +12,9 @@
 ;; Set up the visible bell
 (setq visible-bell t)
 
+;; Default follow symlinks
+(setq vc-follow-symlinks t)
+
 (column-number-mode)
 (global-display-line-numbers-mode t)
 
