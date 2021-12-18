@@ -19,23 +19,27 @@
                "emacs-lsp-treemacs"
                "emacs-lsp-ui"
                "emacs-ivy-rich"
-               "emacs-company-box"
                "emacs-company"
                "emacs-go-mode"
                "emacs-lsp-mode"
                "emacs-counsel"
+	       "emacs-helpful"
                "emacs-use-package"
                "emacs-ivy"
                "emacs-which-key"
-               "font-fira-code"
                "emacs-doom-themes"
+	       "emacs-general"
                "emacs-doom-modeline"
+	       "emacs-evil"
+	       "emacs-evil-collection"
+	       "emacs-hydra"
                "emacs"
+	       
 	       ;;Home Packages
 	       "htop"
-	       "ungoogled-chromium"
-	       "ublock-origin-chromium"
-	       "alacritty"
+	       
+	       ;"firefox"
+	       "kitty"
 	       "flatpak"
 	       
 	       ;;Fonts
@@ -43,7 +47,7 @@
 	       )))
   (services
     (list (service
-            home-bash-service-type
-            (home-bash-configuration
-              (bash-logout
-                (list (local-file ".//.bash_logout" "bash_logout"))))))))
+           home-bash-service-type
+	   (home-bash-configuration
+	    (bash-profile
+	     (list (plain-file "custom" "export PATH=$PATH:/home/mkrause/go/bin/"))))))))
