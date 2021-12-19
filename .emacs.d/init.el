@@ -162,6 +162,8 @@
 
 (use-package evil-collection
   :after evil
+  :init
+  (setq evil-collection-company-use-tng nil)
   :config
   (evil-collection-init))
 
