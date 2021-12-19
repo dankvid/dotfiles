@@ -31,6 +31,7 @@
 	       "emacs-general"
                "emacs-doom-modeline"
 	       "emacs-evil"
+	       "emacs-guix"
 	       "emacs-evil-collection"
 	       "emacs-hydra"
                "emacs"
