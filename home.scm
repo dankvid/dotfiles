@@ -34,17 +34,28 @@
 	       "emacs-guix"
 	       "emacs-evil-collection"
 	       "emacs-hydra"
+	       "emacs-magit"
+	       "emacs-projectile"
+	       "emacs-counsel-projectile"
                "emacs"
+	       "ripgrep"
 	       
 	       ;;Home Packages
 	       "htop"
-	       
-	       ;"firefox"
+	       "firefox"
 	       "kitty"
 	       "flatpak"
-	       
-	       ;;Fonts
+	       "stow"
+
+	       ;development
+	       "git"
+	       "go"
+	       "gcc-toolchain"
+
+	       ;Fonts
 	       "font-fira-code"
+	       "font-jetbrains-mono"
+	       "font-awesome"
 	       )))
   (services
     (list (service
