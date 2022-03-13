@@ -1,2 +1,2 @@
-# dotfiles
-### Config files for GNU Emacs
+# Old emacs dotfiles
+# EOL
